@@ -26,7 +26,7 @@
 char TimeZone = +3; //Ваш часовой пояс относительно GMT+00
 
 #define ALL_INCOMING_SMS_ENABLED (1)            // 1 - разрешен приём команд со всех входящих/ 0 -только с номера CommandID
-const char RemoteID[] PROGMEM = "+7XXXXXXXXXX"; //Шаблон номера на который отправляем СМС
+const char RemoteID[] PROGMEM = "+7XXXXXXXXXX"; //Шаблон номера, на который отправляем СМС
 const char CommandID[] PROGMEM = "+7XXXXXXXXXX"; //Шаблон номера, с которого принимаем СМС
 const char PIN[] PROGMEM = "0000";              //ПИН-код! Поменяйте на свой!!! Иначе СИМ карта заблокируется!
 
