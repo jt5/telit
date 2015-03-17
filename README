@@ -1,0 +1,20 @@
+Библиотека под Ардуино и шилд «Cosmo GSM».
+
+Features:
+- Регистрация в GSM-сети
+- Отправка SMS
+- Прием и разбор SMS
+- Отправка данных по GPRS
+- Проверка статуса соединения с сетью GSM, восстановление сети при потере сигнала
+- Проверка баланса
+- Синхронизация времени
+
+Required:
+- Плата Arduino (Uno, Duemilanove, Cosmo Black Star и другие совместимые аналоги с Atmega328).
+- Шилд «Cosmo GSM».
+
+Source:
+https://github.com/jt5/telit
+
+Example:
+http://jt5.ru/examples/gprs-telit-narodmon/
